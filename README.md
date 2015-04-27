@@ -1,18 +1,26 @@
-# Examples
+# BootboxJS Error Dialog
+Bootbox Error extends BootBoxJS by adding in an error dialog. Include bootboxError.js after the files listed in the ***Requirements*** section
 
-## Use the defaults
+## Requirements
+- jQuery
+- Twitter Bootstrap
+- BotboxJS (https://github.com/makeusabrew/bootbox)
+
+## Examples
+
+### Use the defaults
 `bootbox.error();`
 
-## Change the title
+### Change the title
 `bootbox.error({ title: "New Error Title" });`
 
-## Change the title and the message
+### Change the title and the message
 `bootbox.error({ title: "New Error Title", message: "A new message" });`
 
-## Change the wrapper class and the message
+### Change the wrapper class and the message
 `bootbox.error({ className: "text-danger", message: "A new message" });`
 
-## Change the buttons
+### Change the buttons
 ```
 bootbox.error({ 
     buttons: { 
