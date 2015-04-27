@@ -1,5 +1,4 @@
 # Examples
-========
 
 ## Use the defaults
 `bootbox.error();`
