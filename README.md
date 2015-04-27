@@ -2,7 +2,7 @@
 Bootbox Error extends BootBoxJS by adding in an error dialog. Include bootboxError.js after the files listed in the ***Requirements*** section
 
 ## Requirements
-- jQuery
+- jQuery (https://github.com/jquery/jquery)
 - Twitter Bootstrap (https://github.com/twbs/bootstrap)
 - BotboxJS (https://github.com/makeusabrew/bootbox)
 
