@@ -9,19 +9,27 @@ Bootbox Error extends BootBoxJS by adding in an error dialog. Include bootboxErr
 ## Examples
 
 ### Use the defaults
-`bootbox.error();`
+```js
+bootbox.error();
+```
 
 ### Change the title
-`bootbox.error({ title: "New Error Title" });`
+```js
+bootbox.error({ title: "New Error Title" });
+```
 
 ### Change the title and the message
-`bootbox.error({ title: "New Error Title", message: "A new message" });`
+```js
+bootbox.error({ title: "New Error Title", message: "A new message" });
+```
 
 ### Change the wrapper class and the message
-`bootbox.error({ className: "text-danger", message: "A new message" });`
+```js
+bootbox.error({ className: "text-danger", message: "A new message" });
+```
 
 ### Change the buttons
-```
+```js
 bootbox.error({ 
     buttons: { 
         okButton: {
