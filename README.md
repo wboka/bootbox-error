@@ -12,6 +12,10 @@ Bootbox Error extends BootBoxJS by adding in an error dialog. Include bootboxErr
 
 ![Bootbox Error Defaults](./images/bootbox-error-default.png)
 
+### Change the message
+
+![Bootbox Error String](./images/bootbox-error-string.png)
+
 ### Change the title
 
 ![Bootbox Error Title](./images/bootbox-error-title.png)
