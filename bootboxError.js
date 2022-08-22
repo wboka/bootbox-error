@@ -20,8 +20,13 @@ bootbox.error = function(options) {
         }
     };
     
-    // Extend the defaults with any passed in options
-    var settings = $.extend(defaults, options);
+    if ( typeof(options) == 'string' ) {
+      var settings = $.extend(defaults, {message: options});
+    }
+    else {
+      // Extend the defaults with any passed in options
+      var settings = $.extend(defaults, options);
+    }
     
     // Build and show the dialog
     bootbox.dialog({
